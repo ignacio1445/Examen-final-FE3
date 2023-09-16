@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia";
+    width: auto;
+    height: auto;
+}
+
+.barraNavegacion{
+    background-color: #726EFF;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.barraNavegacion h2{
+    align-items: start;
+    align-self: center;
+    padding-left: 40px;
+}
+
+.barraNavegacion div{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40px;
+}
+
+.barraNavegacion div ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-self: center;
+    font-weight: bold;
+    width: 500px;
+}
+
+.barraNavegacion div ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.barraNavegacion div button{
+    height: 50px;
+    width: 300px;
+    align-self: center;
+    flex: 0.5;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(136, 136, 136);
+}
+
+footer {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+footer
+
+footer > img {
+    width: 200px;
+    margin: 0;
+}
+footer > p {
+    margin: 0;
+    padding-top: 0.7rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 120px;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+}
+
+.contacto{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+form input {
+    border-radius: 10px;
+    height: 25px;
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+}
+form button{
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.mensaje{
+    padding: 40px;
+    margin-top: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    border: 5px solid rgb(136, 136, 136);
+    border-radius: 30px;
+}
+
+.Titulos {
+    font-weight: bold;
+}
+
+.odontologos {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    width: 90vw;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+.divImgDoctor {
+    width: auto;
+    height: auto;
+}
+.imgDoctor {
+    width: 100%;
+}
+
+.botonFav {
+    background-color: #726EFF;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.detalles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+}
+
+/* Modo oscuro */
+
+.dark {
+    background-color: #12121296;
+    color: white;
+}
+.dark a {
+    color: white;
+}
+.dark .botonFav {
+    color: white;
+}
+.dark .barraNavegacion{
+    background-color: #0c0c22;}
+
+.dark .botonFav {
+    background-color: #0c0c22;}
+
+.botonFav:hover {
+    background-color: rgb(206, 217, 142);}
+
+
+
+
+
